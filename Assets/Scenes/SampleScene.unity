@@ -688,6 +688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  scoreText: {fileID: 705614077}
 --- !u!4 &1618399735
 Transform:
   m_ObjectHideFlags: 0
@@ -933,7 +934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scoretoGive: 1
-  clicksToPop: 20
+  clicksToPop: 3
   scaleIncreasePerClick: 0.1
   scoreManager: {fileID: 1618399734}
 --- !u!114 &3181612803891998635
@@ -948,8 +949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6da5f9d4670a1545abde0f1b80a09e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoretoGive: 1
-  clicksToPop: 20
+  scoretoGive: 5
+  clicksToPop: 3
   scaleIncreasePerClick: 0.1
   scoreManager: {fileID: 1618399734}
 --- !u!114 &4501695310699893325
@@ -964,8 +965,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f6da5f9d4670a1545abde0f1b80a09e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoretoGive: 1
-  clicksToPop: 20
+  scoretoGive: 20
+  clicksToPop: 3
   scaleIncreasePerClick: 0.1
   scoreManager: {fileID: 1618399734}
 --- !u!33 &4732395770505265699
@@ -1011,7 +1012,7 @@ GameObject:
   - component: {fileID: 5434507097685695019}
   - component: {fileID: 4501695310699893325}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: Target_Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1065,7 +1066,7 @@ GameObject:
   - component: {fileID: 6428141475472287693}
   - component: {fileID: 3181612803891998635}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: Target_Red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1085,7 +1086,7 @@ GameObject:
   - component: {fileID: 6428141474742924892}
   - component: {fileID: 3181612803268804154}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: Target_Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
